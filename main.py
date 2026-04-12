@@ -11,3 +11,7 @@ if __name__ == '__main__':
     # basics1.abs_value()
 
     basics1.sqrt()
+
+
+    great_days = sum(1 for i in incomes if i > 1500.00)
+
