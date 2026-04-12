@@ -14,3 +14,4 @@ Fecha,Producto_Top,Ventas_MXN,Gastos_MXN,Metodo_Pago
 2023-10-13,Espresso,1050.30,340.00,Efectivo
 2023-10-14,Frappe,2500.00,700.00,Tarjeta
 2023-10-15,Latte,2000.50,600.00,Efectivo
+2023-10-15,Latte,"2000.50",600.00,Efectivo

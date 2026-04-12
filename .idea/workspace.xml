@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad0c4f77-a040-4a94-a139-28c9846260d7" name="Changes" comment="Initial commit, starting python project with learning exercises">
+    <list default="true" id="ad0c4f77-a040-4a94-a139-28c9846260d7" name="Changes" comment="Added Register Box exercise for reading data from a txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/read_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/read_analyse_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/sells_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/sells_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -117,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775926983224</updated>
-      <workItem from="1775926984261" duration="10113000" />
+      <workItem from="1775926984261" duration="10268000" />
+      <workItem from="1776006607442" duration="3270000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, starting python project with learning exercises">
       <option name="closed" value="true" />
@@ -127,15 +128,35 @@
       <option name="project" value="LOCAL" />
       <updated>1775929896542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Register Box exercise for reading data from a txt">
+      <option name="closed" value="true" />
+      <created>1775966316572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775966316572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, starting python project with learning exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, starting python project with learning exercises" />
+    <MESSAGE value="Added Register Box exercise for reading data from a txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Register Box exercise for reading data from a txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1775959234135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
