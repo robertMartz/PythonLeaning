@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad0c4f77-a040-4a94-a139-28c9846260d7" name="Changes" comment="Box register exercise was finished and try-catch error handling was added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad0c4f77-a040-4a94-a139-28c9846260d7" name="Changes" comment="Box register exercise was finished and try-catch error handling was added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +114,7 @@
       <updated>1775926983224</updated>
       <workItem from="1775926984261" duration="10268000" />
       <workItem from="1776006607442" duration="3397000" />
-      <workItem from="1776265099311" duration="5305000" />
+      <workItem from="1776265099311" duration="5339000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, starting python project with learning exercises">
       <option name="closed" value="true" />
@@ -150,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776009979565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Box register exercise was finished and try-catch error handling was added.">
+      <option name="closed" value="true" />
+      <created>1776270425405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776270425405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
