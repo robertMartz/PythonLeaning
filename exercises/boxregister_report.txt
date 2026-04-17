@@ -1,0 +1,23 @@
+========================================
+          BOX REGISTER REPORT           
+========================================
+
+Days in the register: 16
+
+Total income: 24154.90
+Total revenue: 16534.90
+Average revenue: 1033.43
+
+Most profitable day 2023-10-14 with revenue: 1800.00
+Least profitable day 2023-10-03 with revenue: 500.25
+Income by payment method: Card 14702.35 | Cash 9452.55
+
+There were 2 great days, 5 bad days and 8 average days in this period
+
+Latte was the top product of the period with 5 sells
+
+There were 1 critic days: 2023-10-06
+
+
+========================================
+FIN DEL REPORTE

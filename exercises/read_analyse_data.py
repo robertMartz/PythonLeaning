@@ -121,6 +121,8 @@ class RegisterBox:
         print(f"There were {day_type_count['Great']} great days, {day_type_count['Bad']} bad days and "
               f"{day_type_count['Average']} average days in this period")
 
+        return day_type_count
+
     def report_top_product(self):
         product_count = {}
         for i in self.data["top_product"]:
@@ -139,6 +141,8 @@ class RegisterBox:
 
         print(f"{top_product_key} was the top product of the period with {product_count[top_product_key]} sells")
 
+        return top_product_key, product_count[top_product_key]
+
     def report_critic_days(self):
         i = 0
         critic_days = []
@@ -148,6 +152,8 @@ class RegisterBox:
             i += 1
 
         print(f"There were {len(critic_days)} critic days: {', '.join(critic_days)}")
+
+        return critic_days
 
     def make_report(self):
         print(f"Days in the period: {self.number_of_days}")
@@ -164,7 +170,54 @@ class RegisterBox:
         self.report_top_product()
         self.report_critic_days()
 
+    def generate_report(self):
+        filename_output = input("Please enter the filename to save the report to: ")
+
+        if not self.is_file_loaded or not self.data:
+            print("⚠️ There is no data uploaded to generate a report.")
+            return
+
+        try:
+            with open(filename_output, "w") as report:
+                # Headed
+                report.write("========================================\n")
+                report.write("          BOX REGISTER REPORT           \n")
+                report.write("========================================\n\n")
+
+                report.write(f"Days in the register: {self.number_of_days}\n\n")
+                report.write(f"Total income: {self.total_income:.2f}\n")
+                report.write(f"Total revenue: {self.total_revenue:.2f}\n")
+                report.write(f"Average revenue: {self.avg_revenue:.2f}\n\n")
+
+                report.write(f"Most profitable day {self.max_revenue_date} with revenue: {self.max_revenue:.2f}\n")
+                report.write(f"Least profitable day {self.min_revenue_date} with revenue: {self.min_revenue:.2f}\n")
+                report.write(f"Income by payment method: Card {self.card_total:.2f} | Cash {self.cash_total:.2f}\n\n")
+
+                day_types = self.report_day_types()
+                report.write(f"There were {day_types['Great']} great days, {day_types['Bad']} bad days and "
+                f"{day_types['Average']} average days in this period\n\n")
+
+                top_product, top_product_count = self.report_top_product()
+                report.write(f"{top_product} was the top product of the period with {top_product_count} sells\n\n")
+
+                critic_days = self.report_critic_days()
+                report.write(f"There were {len(critic_days)} critic days: {', '.join(critic_days)}\n\n")
+
+                report.write("\n========================================\n")
+                report.write("              FIN DEL REPORTE\n             ")
+                report.write("\n========================================\n")
+
+            print(f"📄 Reporte generado con éxito: '{filename_output}'")
+        except Exception as e:
+            print(f"❌ There was an unexpected error while making the report: {e}")
 
 filepath = input("Please enter the file path: ")
 register_box = RegisterBox(filepath)
 register_box.make_report()
+
+save_report = input("\n\n Do you want to save the report into a file ?  (y/n)")
+
+if save_report == "y":
+    register_box.generate_report()
+else:
+    print("Alright. Bye !!")

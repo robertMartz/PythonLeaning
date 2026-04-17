@@ -90,6 +90,54 @@ class CajaRegistradora:
                 dias_malos.append(dia["fecha"])
         return dias_malos
 
+    def generar_reporte(self, nombre_salida="reporte_final.txt"):
+        # Verificamos si hay datos para procesar
+        if not self.archivo_cargado or not self.registros:
+            print("⚠️ No hay datos cargados para generar un reporte.")
+            return
+
+        try:
+            with open(nombre_salida, "w") as reporte:
+                # Escribimos un encabezado bonito
+                reporte.write("========================================\n")
+                reporte.write("      REPORTE DE CAJA REGISTRADORA      \n")
+                reporte.write("========================================\n\n")
+
+                # 1. Ganancia Total
+                ganancia = self.calcular_ganancia_total()
+                reporte.write(f"GANANCIA NETA TOTAL: ${ganancia:.2f} MXN\n")
+
+                # 2. Día más rentable
+                fecha, monto = self.dia_mas_rentable()
+                reporte.write(f"DÍA MÁS RENTABLE: {fecha} (Ganancia: ${monto:.2f})\n\n")
+
+                # 3. Métodos de Pago
+                reporte.write("VENTAS POR MÉTODO DE PAGO:\n")
+                pagos = self.resumen_metodos_pago()
+                for metodo, total in pagos.items():
+                    reporte.write(f" - {metodo}: ${total:.2f}\n")
+
+                reporte.write("\n")
+
+                # 4. Producto Estrella
+                prod, cant = self.producto_estrella()
+                reporte.write(f"PRODUCTO ESTRELLA: {prod} ({cant} días como top)\n")
+
+                # 5. Días Críticos
+                criticos = self.dias_criticos()
+                reporte.write(f"DÍAS CRÍTICOS (Gastos > 500 y Ventas < 1900):\n")
+                if criticos:
+                    reporte.write(f" - {', '.join(criticos)}\n")
+                else:
+                    reporte.write(" - Ninguno registrado.\n")
+
+                reporte.write("\n========================================\n")
+                reporte.write("FIN DEL REPORTE\n")
+
+            print(f"📄 Reporte generado con éxito: '{nombre_salida}'")
+
+        except Exception as e:
+            print(f"❌ Error al escribir el reporte: {e}")
 
 # ==========================================
 # CÓMO USAR LA CLASE EN LA PRÁCTICA
