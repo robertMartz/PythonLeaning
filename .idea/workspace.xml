@@ -53,61 +53,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0151977335533169" />
-      <entry key="MS500" value="1.4328682827598291" />
-      <entry key="S2" value="1.8111271555770427" />
-      <entry key="S5" value="1.919677531692453" />
-      <entry key="S10" value="1.9589981932224751" />
-      <entry key="S30" value="1.9879653966253483" />
-      <entry key="S60" value="2.0534403783366626" />
-      <entry key="M2" value="2.344059136038747" />
-      <entry key="M5" value="2.991796547820658" />
-      <entry key="M10" value="3.4336752860440725" />
-      <entry key="M15" value="3.863511489069413" />
-      <entry key="M30" value="7.451059152659148" />
-      <entry key="H1" value="18.06466603232759" />
-      <entry key="H2" value="32.235938748223106" />
-      <entry key="H4" value="44.08394860629554" />
-      <entry key="D1" value="57.7448210113436" />
-      <entry key="W1" value="60.52299721108049" />
+      <entry key="MS100" value="1.0016661541740974" />
+      <entry key="MS500" value="1.3718483498652263" />
+      <entry key="S2" value="2.9026506307454665" />
+      <entry key="S5" value="5.452405855979029" />
+      <entry key="S10" value="9.177523224553658" />
+      <entry key="S30" value="15.71211232640899" />
+      <entry key="S60" value="18.529158406816318" />
+      <entry key="M2" value="20.433772779215417" />
+      <entry key="M5" value="22.159717889661714" />
+      <entry key="M10" value="22.99861683131209" />
+      <entry key="M15" value="23.563217883700332" />
+      <entry key="M30" value="27.26231389132403" />
+      <entry key="H1" value="37.913771235936075" />
+      <entry key="H2" value="52.12275677922053" />
+      <entry key="H4" value="64.01157554295852" />
+      <entry key="D1" value="77.72972474690862" />
+      <entry key="W1" value="80.52075243340668" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="4.880204348382088E-183" />
-      <entry key="S30" value="1.7049065016770166E-61" />
-      <entry key="S60" value="4.413476167583429E-31" />
-      <entry key="M2" value="8.16745949337307E-16" />
-      <entry key="M5" value="1.5028376089214633E-6" />
-      <entry key="M10" value="0.0023522767439944576" />
-      <entry key="M15" value="0.0298017076455294" />
-      <entry key="M30" value="0.4049326943906713" />
-      <entry key="H1" value="1.5405724296112726" />
-      <entry key="H2" value="3.0311608020345737" />
-      <entry key="H4" value="4.261372831083102" />
-      <entry key="D1" value="5.666803059634103" />
-      <entry key="W1" value="5.951211479584764" />
+      <entry key="S10" value="7.189391428427778E-184" />
+      <entry key="S30" value="9.004341151451775E-62" />
+      <entry key="S60" value="3.2074247254052364E-31" />
+      <entry key="M2" value="6.962654300557487E-16" />
+      <entry key="M5" value="1.4098963696321315E-6" />
+      <entry key="M10" value="0.0022783790763578346" />
+      <entry key="M15" value="0.029174238507282665" />
+      <entry key="M30" value="0.4006471270135058" />
+      <entry key="H1" value="1.5323984927995842" />
+      <entry key="H2" value="3.023108772625834" />
+      <entry key="H4" value="4.255709074005779" />
+      <entry key="D1" value="5.665547080019264" />
+      <entry key="W1" value="5.95102303091737" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9798244958180732" />
-      <entry key="MS500" value="1.4182295754691339" />
-      <entry key="S2" value="1.8057495101600007" />
-      <entry key="S5" value="1.9173286903700488" />
-      <entry key="S10" value="1.9577879239403457" />
-      <entry key="S30" value="1.9875533871062843" />
-      <entry key="S60" value="2.0532279278056955" />
-      <entry key="M2" value="2.3439393948392" />
-      <entry key="M5" value="2.991738122900169" />
-      <entry key="M10" value="3.435979250471026" />
-      <entry key="M15" value="3.893186271589912" />
-      <entry key="M30" value="7.855351607127893" />
-      <entry key="H1" value="19.604070409155415" />
-      <entry key="H2" value="35.26596108825978" />
-      <entry key="H4" value="48.34452312595012" />
-      <entry key="D1" value="63.411447318910604" />
-      <entry key="W1" value="66.47418217546577" />
+      <entry key="MS100" value="0.9810521570422291" />
+      <entry key="MS500" value="1.3660259412855036" />
+      <entry key="S2" value="2.899309427706293" />
+      <entry key="S5" value="5.449755931466892" />
+      <entry key="S10" value="9.174988934465995" />
+      <entry key="S30" value="15.710415634690788" />
+      <entry key="S60" value="18.528108720471415" />
+      <entry key="M2" value="20.43317583430965" />
+      <entry key="M5" value="22.15945254527842" />
+      <entry key="M10" value="23.000740938263327" />
+      <entry key="M15" value="23.592195717616445" />
+      <entry key="M30" value="27.662291226112117" />
+      <entry key="H1" value="39.444989645775514" />
+      <entry key="H2" value="55.1447209843492" />
+      <entry key="H4" value="68.26648279771192" />
+      <entry key="D1" value="83.39509435200573" />
+      <entry key="W1" value="86.47174884108915" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -122,38 +122,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.bible_entropy.executor": "Run",
-    "Python.bible_entropyV2.executor": "Run",
-    "Python.billar_hongo.executor": "Run",
-    "Python.binary_entropy.executor": "Run",
-    "Python.estadio_bunimovich.executor": "Run",
-    "Python.estadio_bunimovich_cuantico.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mutual_information.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/roberto2002/PycharmProjects/PythonLearning/projects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "proofread",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.bible_entropy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bible_entropyV2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.billar_hongo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_entropy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.estadio_bunimovich.executor&quot;: &quot;Run&quot;,
+    &quot;Python.estadio_bunimovich_cuantico.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mutual_information.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/roberto2002/PycharmProjects/PythonLearning/projects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonLearning" />
